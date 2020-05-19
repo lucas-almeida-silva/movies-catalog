@@ -109,6 +109,56 @@
       "urlIMDb": "https://www.imdb.com/title/tt2527338/?ref_=vi_md_ti",
       "genero": "Aventura",
       "id": 11
+    },
+    {
+      "titulo": "Mistério no Mediterrâneo ",
+      "urlFoto": "https://m.media-amazon.com/images/M/MV5BNTA2YTI5YjUtZWI4Zi00NWQ5LWFiYmEtOTBmNTUyNDAwNjllXkEyXkFqcGdeQXVyNjIzNzM4NzA@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "dtLancamento": "2019-06-14T03:00:00.000Z",
+      "descricao": "A New York cop and his wife go on a European vacation to reinvigorate the spark in their marriage, but end up getting framed and on the run for the death of an elderly billionaire.",
+      "nota": 6,
+      "urlIMDb": "https://www.imdb.com/title/tt1618434/?ref_=nv_sr_srsg_0",
+      "genero": "Comédia",
+      "id": 12
+    },
+    {
+      "titulo": "teste",
+      "urlFoto": "",
+      "dtLancamento": "2020-05-28T03:00:00.000Z",
+      "descricao": "",
+      "nota": 4,
+      "urlIMDb": "",
+      "genero": "Aventura",
+      "id": 13
+    },
+    {
+      "titulo": "teste",
+      "urlFoto": "",
+      "dtLancamento": "2020-05-29T03:00:00.000Z",
+      "descricao": "",
+      "nota": 4,
+      "urlIMDb": "",
+      "genero": "Romance",
+      "id": 14
+    },
+    {
+      "titulo": "teste2",
+      "urlFoto": "",
+      "dtLancamento": "2020-06-10T03:00:00.000Z",
+      "descricao": "",
+      "nota": 3,
+      "urlIMDb": "",
+      "genero": "Drama",
+      "id": 15
+    },
+    {
+      "titulo": "teste3",
+      "urlFoto": "",
+      "dtLancamento": "2020-07-21T03:00:00.000Z",
+      "descricao": "",
+      "nota": 4,
+      "urlIMDb": "",
+      "genero": "Terror",
+      "id": 16
     }
   ]
 }
