@@ -18,8 +18,7 @@ export class CadastroFilmesComponent implements OnInit {
   registerForm: FormGroup;
   generos: Array<string>;
 
-  constructor(public validacao: ValidarCamposService, 
-              public dialog: MatDialog,
+  constructor(public dialog: MatDialog,
               private fb: FormBuilder,
               private filmeService: FilmesService,
               private router: Router) { }
@@ -39,10 +38,6 @@ export class CadastroFilmesComponent implements OnInit {
     this.generos = ['Ação', 'Romance', 'Aventura', 'Terror', 'Ficção Científica', 'Comédia', 'Drama'];
 
   } 
-
-  get f() {
-    return this.registerForm.controls;
-  }
 
   submit(): void {
     this.registerForm.markAllAsTouched();
