@@ -129,16 +129,6 @@
       "urlIMDb": "https://www.imdb.com/title/tt2527338/?ref_=nv_sr_srsg_0",
       "genero": "Aventura",
       "id": 17
-    },
-    {
-      "titulo": "filme sem descrição e foto",
-      "urlFoto": "",
-      "dtLancamento": "2020-01-02T03:00:00.000Z",
-      "descricao": "",
-      "nota": 10,
-      "urlIMDb": "",
-      "genero": "Terror",
-      "id": 18
     }
   ]
 }

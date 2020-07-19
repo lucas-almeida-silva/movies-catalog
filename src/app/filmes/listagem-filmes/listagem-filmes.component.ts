@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder } from '@angular/forms';
+import { Router } from '@angular/router';
 import { debounceTime } from 'rxjs/operators'
 import { FilmesService } from 'src/app/core/filmes.service';
 import { Filme } from 'src/app/shared/models/filme';
 import { ConfigParams } from 'src/app/shared/models/config-params';
-import { time } from 'console';
 
 @Component({
   selector: 'dio-listagem-filmes',
@@ -21,10 +21,10 @@ export class ListagemFilmesComponent implements OnInit {
   filmes: Filme[] = [];
   filtrosListagem: FormGroup;
   generos: string[] 
-
   
   constructor(private filmesService: FilmesService,
-              private fb: FormBuilder) { }
+              private fb: FormBuilder,
+              private router: Router) { }
 
   ngOnInit(): void {
     this.filtrosListagem = this.fb.group({
@@ -51,6 +51,10 @@ export class ListagemFilmesComponent implements OnInit {
 
   onScroll(): void {
     this.listarFilmes();
+  }
+
+  abrir(id: number): void {
+    this.router.navigate(['filmes', id]);
   }
 
   listarFilmes(): void {
