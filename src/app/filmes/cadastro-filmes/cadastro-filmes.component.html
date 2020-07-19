@@ -1,6 +1,6 @@
 <mat-toolbar class="app-title">Cadastrar Filme</mat-toolbar>
 <div class="main-div">
-  <mat-card class="center width50" >
+  <mat-card class="center width50" *ngIf="registerForm">
     <form autocomplete="off" novalidate [formGroup]="registerForm" (ngSubmit)="submit()" (ngReset)="reiniciarForm()">
       <mat-card-content>
           <dio-input-text titulo="Título *" controlName="titulo" [formGroup]="registerForm"></dio-input-text>
